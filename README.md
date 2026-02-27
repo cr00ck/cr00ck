@@ -41,7 +41,7 @@ Allure report contents:
 
 ### Running tests from terminal
 
-gradle clean test -Dselenoid_url="selenoid.autotests.cloud/wd/hub" -Dbrowser_size="1920x1080" -Dbrowser="chrome" -Dbrowser_version="100.0"
+`gradle clean test -Dselenoid_url="selenoid.autotests.cloud/wd/hub" -Dbrowser_size="1920x1080" -Dbrowser="chrome" -Dbrowser_version="100.0"`
 
 When executing this command in the IDE terminal, tests will run remotely in `Selenoid`.
 
