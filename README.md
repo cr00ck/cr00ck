@@ -12,7 +12,7 @@
 
 ## :computer: Tech Stack
 
-<p align="center">
+<p>
 <img width="6%" title="IntelliJ IDEA" src="src/test/resources/img/logo/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="src/test/resources/img/logo/Java.svg">
 <img width="6%" title="Selenide" src="src/test/resources/img/logo/Selenide.svg">
@@ -20,7 +20,7 @@
 <img width="6%" title="Allure Report" src="src/test/resources/img/logo/Allure_Report.svg">
 <img width="5%" title="Allure TestOps" src="src/test/resources/img/logo/AllureTestOps.svg">
 <img width="6%" title="Gradle" src="src/test/resources/img/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="media/logo/JUnit5.svg">
+<img width="6%" title="JUnit5" src="src/test/resources/img/logo/Junit5.svg">
 <img width="6%" title="GitHub" src="src/test/resources/img/logo/GitHub.svg">
 <img width="6%" title="Jenkins" src="src/test/resources/img/logo/Jenkins.svg">
 <img width="5%" title="Jira" src="src/test/resources/img/logo/Jira.svg">
@@ -41,7 +41,7 @@ Allure report contents:
 
 ### Running tests from terminal
 
-`gradle clean test -Dselenoid_url="selenoid.autotests.cloud/wd/hub" -Dbrowser_size="1920x1080" -Dbrowser="chrome" -Dbrowser_version="100.0"`
+gradle clean test -Dselenoid_url="selenoid.autotests.cloud/wd/hub" -Dbrowser_size="1920x1080" -Dbrowser="chrome" -Dbrowser_version="100.0"
 
 When executing this command in the IDE terminal, tests will run remotely in `Selenoid`.
 
